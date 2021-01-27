@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+    <link id="theme" rel="stylesheet" type="text/css" href="css/green.css">
+
+    <!-- JQUERY -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    
+    <!-- Moment JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.0/moment.min.js" integrity="sha512-LuGmbdo8yp73d1NZGukmifQL95L0BsuHywcuFHWGuW6hlMLCatli+6BeJNoERdDo9HFL5W5/g8sIqjOV7ZzxoA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/locale/es-mx.min.js" integrity="sha512-Qy4cmZ6v7vnVEc0cn/BIj9q15eB98do4hMvu8xtc/H+v+YYpdpDrB35flHS3NPLbZUpe1npSYY/u+Gi3UB61vw==" crossorigin="anonymous"></script>
+
+
+    <script type="text/javascript" src="js/main.js"></script>
+    
+    <title>Proyecto-Web</title>
+</head>
+<body>
+    <div id="selector-theme">
+        <div id="to-green"></div>
+        <div id="to-red"></div>
+        <div id="to-blue"></div>
+    </div>
+
+
+    <section id="global">
+
+        <!-- Cabecera -->
+        <header>
+            <div id="logo">
+                <h1>PROYECTO WEB</h1>
+            </div>
+
+            <div class="clearfix"></div>
+            <nav  id="menu">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="reloj.html">Reloj</a></li>
+                    <li><a href="contact.html">Contacto</a></li>
+                    <li><a href="aboutme.html">Sobre mi</a></li>
+                </ul>
+            </nav>
+        </header>
+
+
+        <!-- Contenido -->
+        <section id="content">
+            <div id="box">
+
+                <!-- Cargar Reloj -->
+                <div id="container-reloj">
+                    <div id="reloj"></div>
+                </div>
+            </div>
+
+            <aside id="sidebar">
+                <div id="about">
+                    <h4><span>Quién soy?</span></h4>
+                    <img src="img/caracol.jpg" alt="">
+                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature.</p>
+                </div>
+
+                <div id="login">
+                    <h4><span>Identificate</span></h4>
+                    <form action="">
+                        <label for="name">
+                            Nombre
+                        </label>
+                        <input type="text" name="name" id="form_name">
+
+                        <label for="email">
+                            Email
+                        </label>
+                        <input type="email" name="email">
+
+                        <label for="password">
+                            Contraseña
+                        </label>
+                        <input type="password" name="password">
+                        <input type="submit" value="Entrar">
+                    </form>
+                </div>
+
+            </aside>
+            <div class="clearfix"></div>
+        </section>
+
+    </section>
+
+    <footer>
+        Master en Javascript &copy;
+
+    </footer>
+    
+</body>
+</html>
